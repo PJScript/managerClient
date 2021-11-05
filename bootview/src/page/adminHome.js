@@ -2,7 +2,7 @@ import React from 'react'
 
 const AdminHome = () => {
   return (
-    <div className="AdminHome container">
+    <div className="AdminHome">
       <div>왼쪽</div>
       <div>
         <div>컨테이너1</div>

@@ -14,13 +14,80 @@ const ChatRoomPage = () => {
             <div className="RoomListStatus wait">
               <h6>대기 중</h6>
             </div>
-              <ul>
-                <li className='RoomListItem'>
+              <ul className='RoomListWrapper'>
+                <li className='RoomListItem hover'>
                   <span className='b'>고유 넘버 :</span>
                   <span> z1Kdac34 </span>
                   <span className='b'> 유저네임 :</span>
                   <span> 오렌지 원숭이</span>
                 </li>
+                <li className='RoomListItem hover'>
+                  <span className='b'>고유 넘버 :</span>
+                  <span> z1Kdac34 </span>
+                  <span className='b'> 유저네임 :</span>
+                  <span> 오렌지 원숭이</span>
+                </li>
+                <li className='RoomListItem hover'>
+                  <span className='b'>고유 넘버 :</span>
+                  <span> z1Kdac34 </span>
+                  <span className='b'> 유저네임 :</span>
+                  <span> 오렌지 원숭이</span>
+                </li>
+                <li className='RoomListItem hover'>
+                  <span className='b'>고유 넘버 :</span>
+                  <span> z1Kdac34 </span>
+                  <span className='b'> 유저네임 :</span>
+                  <span> 오렌지 원숭이</span>
+                </li>
+                <li className='RoomListItem hover'>
+                  <span className='b'>고유 넘버 :</span>
+                  <span> z1Kdac34 </span>
+                  <span className='b'> 유저네임 :</span>
+                  <span> 오렌지 원숭이</span>
+                </li>
+                <li className='RoomListItem hover'>
+                  <span className='b'>고유 넘버 :</span>
+                  <span> z1Kdac34 </span>
+                  <span className='b'> 유저네임 :</span>
+                  <span> 오렌지 원숭이</span>
+                </li>
+                <li className='RoomListItem hover'>
+                  <span className='b'>고유 넘버 :</span>
+                  <span> z1Kdac34 </span>
+                  <span className='b'> 유저네임 :</span>
+                  <span> 오렌지 원숭이</span>
+                </li>
+                <li className='RoomListItem hover'>
+                  <span className='b'>고유 넘버 :</span>
+                  <span> z1Kdac34 </span>
+                  <span className='b'> 유저네임 :</span>
+                  <span> 오렌지 원숭이</span>
+                </li>
+                <li className='RoomListItem hover'>
+                  <span className='b'>고유 넘버 :</span>
+                  <span> z1Kdac34 </span>
+                  <span className='b'> 유저네임 :</span>
+                  <span> 오렌지 원숭이</span>
+                </li>
+                <li className='RoomListItem hover'>
+                  <span className='b'>고유 넘버 :</span>
+                  <span> z1Kdac34 </span>
+                  <span className='b'> 유저네임 :</span>
+                  <span> 오렌지 원숭이</span>
+                </li>
+                <li className='RoomListItem hover'>
+                  <span className='b'>고유 넘버 :</span>
+                  <span> z1Kdac34 </span>
+                  <span className='b'> 유저네임 :</span>
+                  <span> 오렌지 원숭이</span>
+                </li>
+                <li className='RoomListItem hover'>
+                  <span className='b'>고유 넘버 :</span>
+                  <span> z1Kdac34 </span>
+                  <span className='b'> 유저네임 :</span>
+                  <span> 오렌지 원숭이</span>
+                </li>
+                
               </ul>
             </div>
             <div>

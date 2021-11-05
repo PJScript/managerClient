@@ -1,6 +1,22 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import axios from 'axios'
+import { useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
+import { getUserAction } from '../redux/actions'
 const Side = () => {
+  let AccessToken = useSelector((state)=> state.authReducer.AccessToken)
+  let dispatch = useDispatch()
+  const getUserList = async () => {
+    await axios.get('http://localhost:4000/auth/user?p=1',{
+      headers:{
+        authorization:AccessToken
+      }
+    }).then((data)=>{
+      dispatch((getUserAction(data.data)))
+      console.log(data)
+    })
+  }
   return (
     <div className='sideListContainer'>
       <a href='/home'><button>홈</button></a>
@@ -8,7 +24,7 @@ const Side = () => {
         <h6 className='sideList-item title'>유저 관리</h6>
         <li>
           <Link to='/user'>
-            <div className='sideList-item hover'>User List</div>
+            <div className='sideList-item hover' onClick={getUserList}>User List</div>
           </Link>
         </li>
         <li>
