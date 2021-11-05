@@ -39,7 +39,10 @@ body,html{
   flex-direction: column;
   width: 100vw;
 }
-
+.App-centerInner{
+  height: 50vh;
+  overflow: scroll;
+}
 /** sideList **/
 .sideListContainer{
 
@@ -66,11 +69,17 @@ body,html{
 /** header **/
 .headerContainer{
   display: flex;
-  background-color: orange;
-  padding: 6px 10px 6px;
-  width: 100%
+  background-color: rgba(112, 158, 255, 0.76);
+  justify-content: space-between;
+  padding-right: 8px;
+  padding-top:8px;  
+  padding-left: 6px;
+  padding-bottom: 8px;
 }
 
+.headerContainer-searchBox{
+  display: flex;
+}
 
 /** home **/
 .AdminHome{
@@ -82,6 +91,9 @@ body,html{
 /** Room **/
 .RoomListItem{
   padding:2px;
+  margin-bottom: 10px;
+  margin-top:5px;
+  margin-right: 10px;
   box-shadow: 0px 0px 4px 0px black;
   border-radius: 7px;
   background-color:whitesmoke;
@@ -101,4 +113,21 @@ body,html{
 .RoomListContainer{
   display: flex;
   justify-content: space-around;
+}
+.RoomListWrapper{
+  display: flex;
+  flex-direction: column;
+  width:inherit;
+  height:40vh;
+  overflow:scroll;
+}
+
+/** Login Form **/
+.loginFormContainer{
+  border:1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
 }

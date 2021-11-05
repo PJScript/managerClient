@@ -10,7 +10,7 @@ import UserListPage from './page/userListPage';
 import ReviewListPage from './page/ReviewListPage';
 import ChatRoomPage from './page/chatRoomPage';
 import SettingPage from './page/settingPage';
-function App() {
+const App = () => {
   return (
     <Router>  {/** 관리자 페이지 무단 침입을 막기위해 이중으로 라우팅 **/}
       <Switch>
@@ -18,9 +18,9 @@ function App() {
           return (
             <div className="App">
               <Side />
-              <div className='App-centerContainer container'>
+              <div className='App-centerContainer'>
                 <Header />
-                <div className='App-centerInner container'>
+                <div className='App-centerInner'>
                   <AdminHome />
                 </div>
               </div>
